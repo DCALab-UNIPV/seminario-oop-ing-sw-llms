@@ -15,7 +15,7 @@ alla domanda pericolosa dell'utente.
 '''
 
 model = Llama(
-    model_path=os.path.expanduser('~/models/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf'),
+    model_path='models/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf',
     chat_format='qwen',
     n_ctx=1024,
     verbose=False,

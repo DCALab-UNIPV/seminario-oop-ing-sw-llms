@@ -8,7 +8,7 @@ import silence
 
 model = Llama(
     # Path al file GGUF del modello
-    model_path=os.path.expanduser('~/models/granite-embedding-30m-english-f16.gguf'),
+    model_path='models/granite-embedding-30m-english-f16.gguf',
     # Silenzia i logs di questo modello
     verbose=False,
     # Modello embedding

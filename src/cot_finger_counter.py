@@ -8,7 +8,7 @@ import silence
 
 model = Llama(
     # Path al file GGUF del modello
-    model_path=os.path.expanduser('~/models/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf'),
+    model_path='models/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf',
     # Silenzia i logs di questo modello
     verbose=False,
     # Massima dimensione della context window (in numero di token)

@@ -4,7 +4,7 @@ import sounddevice as sd
 from piper.voice import PiperVoice
 import os
 
-model_path = os.path.expanduser('~/models/en_US-john-medium.onnx')
+model_path = 'models/en_US-john-medium.onnx'
 voice = PiperVoice.load(model_path)
 stream = sd.OutputStream(
     samplerate=voice.config.sample_rate, 

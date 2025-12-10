@@ -13,7 +13,7 @@ class CVReviewer:
 
         self.model = Llama(
             # Path al file GGUF del modello
-            model_path=os.path.expanduser('~/models/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf'),
+            model_path='models/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf',
             # Formato chat: attenzione a selezionare quello giusto, altrimenti output non ha senso
             chat_format='qwen',
             # Silenzia i logs di questo modello

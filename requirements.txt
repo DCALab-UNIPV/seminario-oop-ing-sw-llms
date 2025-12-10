@@ -1,0 +1,10 @@
+# Dipendenze principali
+llama-cpp-python
+faiss-cpu
+numpy
+prompt_toolkit
+# Altre dipendenze usate in qualche esempio
+# wikipediaapi
+# streamlit
+# piper-tts
+# sounddevice

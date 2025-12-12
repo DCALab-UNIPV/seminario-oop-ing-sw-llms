@@ -9,7 +9,7 @@ Più info: https://erichartford.com/uncensored-models
 '''
 
 model = Llama(
-    model_path='model/dolphin-2_6-phi-2.Q4_K_M.gguf',
+    model_path='models/dolphin-2_6-phi-2.Q4_K_M.gguf',
     chat_format='chatml',
     n_ctx=10_000,
     logits_all=True,
